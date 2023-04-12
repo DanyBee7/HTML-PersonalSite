@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h3>Contact Details:</h3>
+        <p>Cellphone: +1 123 456-7890</p>
+        <p>Email: db1234@gmail.com</p>   
+        <hr>
+        <form action="mailto:db1234@gmail.com" method="post" enctype="text/plain">  
+         <label>Your Name:</label>
+         <input type="text" name="yourName"><br>
+         <label>Your Email:</label>
+         <input type="email" name="yourEmail" value=""><br>
+         <label>Your Message</label><br>
+         <textarea name="yourMessage" rows="10" cols="30"></textarea><br>        
+         <input type="button" value="Send" onclick="submit()">
+        </form> 
+    </body>
+</html>
